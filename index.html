@@ -2,11 +2,15 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Rhian Reis (RR) - Full Stack Developer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="floating-dock.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@300;400;600;700&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
 </head>
 <body>
     <!-- Aurora Boreal Background -->
@@ -106,10 +110,38 @@
                     </div>
                 </div>
                 <div class="about-visual">
-                    <div class="floating-card">
-                        <div class="card-content">
+                    <div class="floating-icons">
+                        <div class="icon-float" style="--delay: 0s; --color: #00ff88;">
+                            <i class="fas fa-home"></i>
+                            <span>🏠</span>
+                        </div>
+                        <div class="icon-float" style="--delay: 1s; --color: #00ffff;">
+                            <i class="fas fa-user"></i>
+                            <span>👤</span>
+                        </div>
+                        <div class="icon-float" style="--delay: 2s; --color: #ff00ff;">
                             <i class="fas fa-code"></i>
-                            <span>Code & Coffee</span>
+                            <span>💻</span>
+                        </div>
+                        <div class="icon-float" style="--delay: 3s; --color: #ffaa00;">
+                            <i class="fas fa-rocket"></i>
+                            <span>🚀</span>
+                        </div>
+                        <div class="icon-float" style="--delay: 4s; --color: #ff0066;">
+                            <i class="fas fa-envelope"></i>
+                            <span>📧</span>
+                        </div>
+                        <div class="icon-float" style="--delay: 5s; --color: #ffffff;">
+                            <i class="fab fa-github"></i>
+                            <span>🐙</span>
+                        </div>
+                        <div class="icon-float" style="--delay: 6s; --color: #25d366;">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>📱</span>
+                        </div>
+                        <div class="icon-float" style="--delay: 7s; --color: #ea4335;">
+                            <i class="fab fa-google"></i>
+                            <span>🔵</span>
                         </div>
                     </div>
                 </div>
@@ -362,5 +394,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="icones-sobre-fallback.js"></script>
+    <script src="dock-icones-corrigidos.js"></script>
 </body>
 </html>
